@@ -3,6 +3,10 @@
 This document describes automated checks that protect the TypeScript workspace
 (`packages/*` and `services/*`).
 
+Repository-level GitHub Actions settings, including the approval policy for fork
+pull request workflows, are recorded in
+[GITHUB_ACTIONS_SECURITY.md](./GITHUB_ACTIONS_SECURITY.md).
+
 ## Test coverage gate
 
 The repository enforces a minimum **aggregate line coverage** threshold for
